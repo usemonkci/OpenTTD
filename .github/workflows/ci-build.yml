@@ -101,7 +101,7 @@ jobs:
 
     if: always() && github.event_name == 'pull_request'
 
-    runs-on: ubuntu-latest
+    runs-on: 
 
     steps:
     - name: Check annotations
