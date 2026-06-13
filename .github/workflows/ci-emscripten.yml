@@ -10,7 +10,7 @@ jobs:
   emscripten:
     name: CI
 
-    runs-on: monkci-ubuntu-24.04-32
+    runs-on: monkci-ubuntu-24.04-4
     container:
       # If you change this version, change the numbers in the cache step,
       # .github/workflows/preview-build.yml (2x) and os/emscripten/Dockerfile too.
